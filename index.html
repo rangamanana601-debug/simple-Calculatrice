@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="body">
+    <div id="Calculatrice">
+
+        <input type="text" id="ecran" readonly>
+
+        <div class="rang">
+            <button onclick="ajouter('1')">1</button>
+            <button onclick="ajouter('2')">2</button>
+            <button onclick="ajouter('3')">3</button>
+            <button style="background:gray;color:#fff;" onclick="ajouter('+')">+</button>
+        </div>
+
+
+        <div class="rang">
+            <button onclick="ajouter('4')">4</button>
+            <button onclick="ajouter('5')">5</button>
+            <button onclick="ajouter('6')">6</button>
+            <button style="background:gray;color:#fff;" onclick="ajouter('-')">-</button>
+        </div>
+
+
+        <div class="rang">
+            <button onclick="ajouter('7')">7</button>
+            <button onclick="ajouter('8')">8</button>
+            <button onclick="ajouter('9')">9</button>
+            <button style="background:gray;color:#fff;" onclick="ajouter('*')">*</button>
+        </div>
+
+        <div class="rang">
+            <button style="background:green;color:#fff;" onclick="Calculer()">=</button>
+            <button onclick="ajouter('0')">0</button>
+            <button style="color:RED;" onclick="Effacer()">C</button>
+            <button style="background:gray;color:#fff;" onclick="ajouter('/')">/</button>
+        </div>
+        <br>
+        <div class="Sombre_Clair">
+            <i id="Claire" class="fa-regular fa-sun"></i>
+            <i id="Sombre" class="fa-regular fa-moon"></i>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

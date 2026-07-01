@@ -68,16 +68,5 @@ input{
     #Calculatrice {
         width:250px;
     }
-    .rang{
-        margin-left:-12px;
-    }
-    #egale{
-    background:green;
-    color:#fff;
-    width:130px;
-    margin-left:30px;
-    border-radius:10px;
-    font-size:20px;
-    }
 
 }

@@ -39,10 +39,13 @@ document.addEventListener("keydown", function(event){
         Calculer();
     }
     if(event.key ==="Backspace"){
-        Effacer();
+        EffacerTout();
     }
 
 })
+function EffacerTout(){
+    ecran.value = ecran.value.slice(0, -1); 
+}
 function ajouter(valeur){
     ecran.value += valeur; 
 }

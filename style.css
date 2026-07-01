@@ -17,6 +17,14 @@ button:hover{
     cursor:pointer;
     background:rgb(206, 217, 228);
 }
+#egale{
+    background:green;
+    color:#fff;
+    width:50%;
+    margin-left:10px;
+    border-radius:10px;
+    font-size:20px;
+}
 #Calculatrice{
     background:aliceblue;
     width:250px;
@@ -53,12 +61,23 @@ input{
 }
 .Sombre_Clair{
     width:20%;
+    padding-top:20px;
+    margin-left:12px;
 }
 @media (max-width:350px){
     #Calculatrice {
-        width:200px;
+        width:250px;
     }
     .rang{
         margin-left:-12px;
     }
+    #egale{
+    background:green;
+    color:#fff;
+    width:50%;
+    margin-left:10px;
+    border-radius:10px;
+    font-size:20px;
+    }
+
 }

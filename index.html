@@ -41,11 +41,15 @@
         </div>
 
         <div class="rang">
-            <button style="background:green;color:#fff;" onclick="Calculer()">=</button>
+            <button onclick="ajouter('%')">%</button>
             <button onclick="ajouter('0')">0</button>
-            <button style="color:RED;" onclick="Effacer()">C</button>
+            <button onclick="ajouter('.')">.</button>
             <button style="background:gray;color:#fff;" onclick="ajouter('/')">/</button>
         </div>
+           <button style="color:RED;" onclick="Effacer()">C</button>
+           <button style="color:RED;" onclick="EffacerTout()">AC</button>
+           <button id="egale" onclick="Calculer()">=</button>
+           <!-- <button style="background:green;color:#fff;" onclick="Calculer()">=</button> -->
         <br>
         <div class="Sombre_Clair">
             <i id="Claire" class="fa-regular fa-sun"></i>

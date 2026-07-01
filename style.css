@@ -1,7 +1,5 @@
 body{
-    /* background:rgb(6, 6, 39); */
     background:gray;
-    overflow:hidden;
 }
 button{
     border:none;
@@ -25,7 +23,7 @@ button:hover{
     margin: auto;
     text-align:center;
     padding:50px;
-    margin-top:15px;
+    margin-top:60px;
     border-radius:10px;
 }
 .rang{
@@ -54,12 +52,11 @@ input{
     background:#000;
 }
 .Sombre_Clair{
-    /* background:gray; */
     width:20%;
 }
 @media (max-width:350px){
     #Calculatrice {
-        width:190px;
+        width:200px;
     }
     .rang{
         margin-left:-12px;
